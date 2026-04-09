@@ -1,0 +1,53 @@
+# ===============================
+# bedrock_unified_scorer.py
+# DREsS_New.tsv + DREsS_Std.tsv
+# rubric-keys: content,organization,language
+# prompts: keywords_system_prompt.txt + guidelines_prompt.txt
+# ===============================
+
+# ---- DREsS_New.tsv ----
+
+# meta.llama3-1-8b-instruct-v1:0
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-70b-instruct-v1:0
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-405b-instruct-v1:0
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-20b-1:0
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-120b-1:0
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_New.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+
+# ===============================
+# DREsS_Std.tsv
+# ===============================
+
+# meta.llama3-1-8b-instruct-v1:0
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-70b-instruct-v1:0
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-405b-instruct-v1:0
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-20b-1:0
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-120b-1:0
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "content,organization,language" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "DREsS_Std.tsv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "content,organization,language" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25

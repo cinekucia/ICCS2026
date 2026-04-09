@@ -1,0 +1,51 @@
+# ===============================
+# ASAP_2_Final_github_test.csv
+# rubric-keys: score
+# ===============================
+
+# meta.llama3-1-8b-instruct-v1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-70b-instruct-v1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-405b-instruct-v1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-20b-1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-120b-1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_test.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+
+# ===============================
+# ASAP_2_Final_github_train.csv
+# rubric-keys: score
+# ===============================
+
+# meta.llama3-1-8b-instruct-v1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "meta.llama3-1-8b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-70b-instruct-v1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "meta.llama3-1-70b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# meta.llama3-1-405b-instruct-v1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "meta.llama3-1-405b-instruct-v1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-20b-1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "openai.gpt-oss-20b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+
+# openai.gpt-oss-120b-1:0
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "keywords_system_prompt.txt" --rubric-keys "score" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+python bedrock_unified_scorer.py --input "ASAP_2_Final_github_train.csv" --prompt-file "guidelines_prompt.txt"      --rubric-keys "score" --model "openai.gpt-oss-120b-1:0" --region "us-west-2" --rpm 1000 --save-every 25
+

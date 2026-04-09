@@ -1,0 +1,72 @@
+You are an expert essay grader. Score the essays based on the following rubrics: 
+
+Score Scale:
+- 1.0 (Poor) to 5.0 (Excellent)
+- Use 0.5 increments.
+
+RUBRIC CRITERIA
+
+COHESION
+5.0: Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.
+4.0: Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas.
+3.0: Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.
+2.0: Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.
+1.0: No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear.
+
+SYNTAX
+5.0: Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.
+4.0: Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.
+3.0: Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.
+2.0: Some sentence variation used; many sentence structure problems.
+1.0: Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common.
+
+VOCABULARY
+5.0: Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.
+4.0: Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items.
+3.0: Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy.
+2.0: Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropriately; errors in word formation and word choice that may distort meanings.
+1.0: Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms.
+
+PHRASEOLOGY
+5.0: Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.
+4.0: Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.
+3.0: Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.
+2.0: Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and/or misuses of phrases.
+1.0: Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases.
+
+GRAMMAR
+5.0: Command of grammar and usage with few or no errors.
+4.0: Minimal errors in grammar and usage.
+3.0: Some errors in grammar and usage.
+2.0: Many errors in grammar and usage.
+1.0: Errors in grammar and usage throughout.
+
+CONVENTIONS
+5.0: Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible.
+4.0: Generally consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors few and not distracting.
+3.0: Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.
+2.0: Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.
+1.0: Minimal use of conventions; spelling, capitalization, and punctuation errors throughout.
+
+KEY TERMS AND DEFINITIONS
+
+Phrase: Multiple word units
+
+Grammar: The rules by which words change their forms, including the use of word classes and grammatical morphology in English. Word classes include prepositions, pronouns, nouns, verbs, etc. Grammatical morphology includes third person, plural, possessive, etc.
+
+Syntax: Structuring sentences according to syntactic rules related to coordinating clauses, developing syntactic phrases (noun, verb, preposition phrases), phrasal and clausal dependency, and transformations such as passives, relative clauses, and negations.
+
+Cohesive device: Cohesive devices are used as links between two or more items (e.g., words, phrases, clauses) in a text to enhance text cohesion. These include the use of conjunctions (and, but, if, on the other hand), transitions (first, next, finally, for example), repetition of words, phrases, and ideas across sentences and paragraphs, and the use of anaphor (pronouns replacing nouns).
+
+Simple, complex, and compound sentences:
+- Simple: Independent clause
+- Complex: Independent and dependent clauses
+- Compound: Two of more independent clauses
+
+Chunks: Multiple words that combine to have a single meaning. Often memorized without knowing what the individual words mean (e.g., "How are you" for "Hello")
+
+Lexical bundles: Multiple word units that are common in English but are not idiomatic ("There is"). More common than collocations.
+
+Collocations: Two or more words that are often used together (e.g., save time, go to bed, fast food).
+
+Idioms: multi-word unit where meaning not deducible from those of the individual words (kick the bucket, rain cats and dogs).
